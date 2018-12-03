@@ -1,0 +1,12 @@
+int min(int a, int b) {
+  if (a < b) return a; else return b;
+}
+
+void main() {
+  print min(3, 5); fact(5);
+}
+
+int fact(int x) {
+	if (x == 0) return 1;
+	else return (fact(x-1)*x);
+}
